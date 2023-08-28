@@ -15,7 +15,7 @@ router.add('/exploracao','/pages/exploracao.html')
 
 
 
-
+router.handle()
 
 window.onpopstate = () => router.handle()
 window.route = () => router.route()
